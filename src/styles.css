@@ -41,6 +41,16 @@ input:active {
   color: #34495e;
 }
 
+.home {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBmaWxsPSIjMzQ0OTVlIiBkPSJNODMuNSwzNy44TDUxLDEyLjdjLTAuOS0wLjctMi4yLTAuNy0zLjEsMEwxNi41LDM3LjljLTAuNiwwLjUtMC45LDEuMi0wLjksMnY0NS41YzAsMS40LDEuMSwyLjUsMi41LDIuNWgxOC43YzEuNCwwLDIuNS0xLjEsMi41LTIuNVY1Ny41aDIxLjV2MjcuOWMwLDEuNCwxLjEsMi41LDIuNSwyLjVIODJjMS40LDAsMi41LTEuMSwyLjUtMi41VjM5LjhDODQuNSwzOS4xLDg0LjEsMzguMyw4My41LDM3Ljh6Ii8+PC9zdmc+);
+  background-size: cover;
+}
+
 #input {
 
   max-width: 500px;
