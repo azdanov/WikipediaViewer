@@ -34,7 +34,7 @@
         document.body.removeChild(returnedResults);
       }
 
-      // Script hack
+      // Script hack?
       returnedResults = document.createElement('script');
       returnedResults.src = 'https://en.wikipedia.org/w/api.php?action=opensearch&limit=10&format=json&callback=populateFoundWikiResults&search=' + search.value;
       document.body.appendChild(returnedResults);

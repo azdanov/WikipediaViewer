@@ -1,6 +1,6 @@
 {
   "name": "WikipediaViewer",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Wikipedia Viewer for FreeCodeCamp",
   "main": "index.html",
   "repository": "https://github.com/azdanov/WikipediaViewer.git",
