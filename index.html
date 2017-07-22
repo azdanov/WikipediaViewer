@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wikipedia Viewer</title>
+  <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;,"><!-- Disables request -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<main class="quickipedia">
+  <h1>Wikipedia Viewer</h1>
+  <div id="input">
+    <input id="search" title="Search on Wikipedia" autocomplete="off" autofocus tabindex="1">
+    <button tabindex="3">
+      <a href="https://en.wikipedia.org/wiki/Special:Random"
+         id="random"
+         target="_blank"
+         rel="noopener noreferrer"
+         tabindex="-1">Random</a>
+    </button>
+    <button type="reset" id="reset" tabindex="2">Reset</button>
+  </div>
+  <section id="output"></section>
+</main>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>

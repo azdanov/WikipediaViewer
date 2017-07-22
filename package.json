@@ -1,0 +1,18 @@
+{
+  "name": "WikipediaViewer",
+  "version": "0.0.2",
+  "description": "Wikipedia Viewer for FreeCodeCamp",
+  "main": "index.html",
+  "repository": "https://github.com/azdanov/WikipediaViewer.git",
+  "author": "Anton Zdanov <akumael@gmail.com>",
+  "license": "Unlicense",
+  "scripts": {},
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "2.2.0",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  },
+  "dependencies": {}
+}
